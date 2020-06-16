@@ -1,0 +1,4 @@
+# TinyShop_Testing
+针对网上开源系统TinyShop进行的功能测试和性能测试文件以及测试结果分析
+本项目采用junit5+selenium自动化测试框架、Jmeter性能测试工具
+针对商城购物、后台管理等核心功能进行功能测试、性能测试环境为虚拟机、windos7(64bit)操作系统，内存2G、
