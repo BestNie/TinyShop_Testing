@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--日志级别以及优先级排序: OFF > FATAL > ERROR > WARN > INFO > DEBUG > TRACE > ALL 
+	,大于等于指定级别的输出会记入日志 -->
+<!--Configuration后面的status，用于设置log4j2自身内部的信息输出 -->
+<!--monitorInterval：Log4j能够自动检测修改配置 文件和重新配置本身，设置间隔秒数 -->
+<Configuration status="WARN">
+	<!-- 类似“变量”的东西，可以在后面引用 -->
+	<Properties>
+		<Property name="log-path">${sys:user.home}/logs/seleniumex</Property>
+	</Properties>
+	<!-- 1 Console: 输出到控制台 -->
+	<!-- 2 RollingFile: 也就是会滚动文件，内容多了，就会滚动把当前文件重新命名，命名规则是filePattern决定的 ，然后新建fileName指定的文件 
+		。见"rf_info"等。 -->
+	<!-- 3 File：可以用作临时的日志文件，因为会不停增长，所以File有append属性决定是否每次清空 ,false意味着清空 。见"rf_debug"。 -->
+	<Appenders>
+		<!-- -->
+		<Console name="con" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n " />
+		</Console>
+		<File name="rf_debug" fileName="${log-path}/debug.log"
+			append="false">
+			<Filters>
+				<ThresholdFilter level="info" onMatch="DENY"
+					onMismatch="NEUTRAL" />
+				<ThresholdFilter level="debug" onMatch="ACCEPT"
+					onMismatch="DENY" />
+			</Filters>
+			<PatternLayout>
+				<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M -
+					%msg%xEx%n</pattern>
+			</PatternLayout>
+		</File>
+		<RollingFile name="rf_info"
+			fileName="${log-path}/info.log"
+			filePattern="${log-path}/bingdict/info-%d{yyyy-MM-dd}-%i.log">
+			<Filters>
+				<!-- warn和以上的级别被拒绝，warn以下的被“放过”(neutral中立) -->
+				<ThresholdFilter level="warn" onMatch="DENY"
+					onMismatch="NEUTRAL" />
+				<!-- info和以上的级别通过，但上一条拒绝了warn和以上的，所以最后只有info通过 -->
+				<ThresholdFilter level="info" onMatch="ACCEPT"
+					onMismatch="DENY" />
+			</Filters>
+			<PatternLayout>
+				<!-- %d时间；class:类；M：方法；L:第几行；n:回车 ；msg：输出的信息；level:信息级别；-5：左对齐并占5个字符的位置；xEx:异常，包括包的消息 -->
+				<!-- 更多信息见http://logging.apache.org/log4j/2.x/manual/layouts.html的Pattern部分 -->
+				<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M -
+					%msg%xEx%n</pattern>
+			</PatternLayout>
+			<!-- 触发滚动的策略 ，可以用多个策略，满足一个可触发滚动 -->
+			<!-- 详见https://logging.apache.org/log4j/2.x/manual/appenders.html 的rollingfile 
+				appender部分的Triggering Policies -->
+			<Policies>
+				<SizeBasedTriggeringPolicy size="100KB" />
+			</Policies>
+			<!-- 滚动的策略 -->
+			<!-- 详见https://logging.apache.org/log4j/2.x/manual/appenders.html 的rollingfile 
+				appender部分的Rollover Strategies -->
+			<!-- 最多20个文件，会循环覆盖 -->
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+		<RollingFile name="rf_warn"
+			fileName="${log-path}/warn.log"
+			filePattern="${log-path}/bingdict/warn-%d{yyyy-MM-dd}-%i.log">
+			<Filters>
+				<ThresholdFilter level="error" onMatch="DENY"
+					onMismatch="NEUTRAL" />
+				<ThresholdFilter level="warn" onMatch="ACCEPT"
+					onMismatch="DENY" />
+			</Filters>
+			<PatternLayout>
+
+				<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M -
+					%msg%xEx%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="100KB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+		<RollingFile name="rf_error"
+			fileName="${log-path}/error.log"
+			filePattern="${log-path}/bingdict/error-%d{yyyy-MM-dd}-%i.log">
+			<Filters>
+				<ThresholdFilter level="error" onMatch="ACCEPT"
+					onMismatch="DENY" />
+			</Filters>
+			<PatternLayout>
+				<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M -
+					%msg%xEx%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="100KB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<!-- 所有logger的根logger -->
+		<Root level="debug">
+			<AppenderRef ref="con" />
+			<AppenderRef ref="rf_debug" />
+			<AppenderRef ref="rf_info" />
+			<AppenderRef ref="rf_warn" />
+			<AppenderRef ref="rf_error" />
+		</Root>
+		<!--additivity决定是否继承父logger的AppenderRef，这里"tools" logger不会继承root的AppenderRef -->
+		<!-- logger名字为tools.**的都继承 或使用 这里"tools" logger的设置 -->
+		<!-- 例如tools.Paths类中，LogManager.getLogger(Paths.class)，就会拿“tools.Paths”logger,它使用的就是这个"tools" 
+			logger -->
+		<!-- <logger name="tools" level="info" additivity="false"> <AppenderRef 
+			ref="rf_debug" /> <AppenderRef ref="rf_error" /> </logger> -->
+	</Loggers>
+</Configuration>

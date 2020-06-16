@@ -1,0 +1,401 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1592303810033,107,准备数据----删除原来的用户,200,OK,setUp Thread Group 1-1,text,true,,11,0,1,1,null,107,0,100
+1592303810143,7,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,6,0,0
+1592303810150,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810151,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810151,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810152,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810152,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810153,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810153,5,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,5,0,4
+1592303810158,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810158,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810159,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810159,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810162,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810162,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810163,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810164,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810165,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810165,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810166,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810166,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810167,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810167,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810168,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810169,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810169,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810170,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810170,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810171,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810171,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810172,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810172,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810173,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810173,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810174,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810175,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810175,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810176,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810176,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810177,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810177,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810178,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810178,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810179,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810179,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810179,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810180,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810180,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810181,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810181,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810182,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810182,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810182,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810183,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810183,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810184,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810184,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810184,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810185,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810185,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810186,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810186,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810187,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810187,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810188,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810188,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810189,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810189,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810189,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810190,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810190,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810191,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810191,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810191,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810192,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810192,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810192,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810193,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810193,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810194,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810194,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810194,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810195,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810195,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810195,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810196,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810197,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810197,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810197,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810198,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810198,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810199,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810199,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810200,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810200,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810201,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810201,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810201,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810202,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810202,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810203,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810203,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810204,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810204,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810204,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810205,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810205,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810206,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810206,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810206,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810207,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810207,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810207,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,1
+1592303810208,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810208,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810209,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810209,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810209,1,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,1,0,0
+1592303810210,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810210,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810211,0,准备数据-----增加用户,200,OK,setUp Thread Group 1-1,text,true,,10,0,1,1,null,0,0,0
+1592303810253,101,JSR223 Sampler,200,OK,专用线程组（需修改Duration） 1-1,text,true,,0,0,1,2,null,0,0,0
+1592303810927,2885,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,12,null,0,0,0
+1592303814344,2867,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,22,null,0,0,0
+1592303817731,2877,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,32,null,0,0,0
+1592303821127,2861,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,43,null,0,0,0
+1592303824510,2860,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,53,null,0,0,0
+1592303827888,2858,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,63,null,0,0,0
+1592303831274,2866,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,73,null,0,0,0
+1592303834668,2860,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,83,null,0,0,0
+1592303838050,2891,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,94,null,0,0,0
+1592303841457,2866,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,104,null,0,0,0
+1592303844845,2863,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,114,null,0,0,0
+1592303850000,169,登入界面(获取token),200,OK,Thread Group 2-24,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,167,0,23
+1592303850011,158,登入界面(获取token),200,OK,Thread Group 2-69,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,155,0,10
+1592303850000,169,登入界面(获取token),200,OK,Thread Group 2-47,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,166,0,23
+1592303849998,200,登入界面(获取token),200,OK,Thread Group 2-107,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,199,0,27
+1592303849995,256,登入界面(获取token),200,OK,Thread Group 2-77,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,256,0,43
+1592303849998,262,登入界面(获取token),200,OK,Thread Group 2-55,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,262,0,36
+1592303849995,270,登入界面(获取token),200,OK,Thread Group 2-91,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,270,0,43
+1592303849997,273,登入界面(获取token),200,OK,Thread Group 2-23,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,273,0,41
+1592303849998,283,登入界面(获取token),200,OK,Thread Group 2-30,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,283,0,38
+1592303849999,302,登入界面(获取token),200,OK,Thread Group 2-71,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,302,0,31
+1592303849999,322,登入界面(获取token),200,OK,Thread Group 2-111,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,322,0,29
+1592303849995,334,登入界面(获取token),200,OK,Thread Group 2-79,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,334,0,44
+1592303849995,334,登入界面(获取token),200,OK,Thread Group 2-62,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,334,0,44
+1592303849998,335,登入界面(获取token),200,OK,Thread Group 2-90,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,335,0,39
+1592303849999,335,登入界面(获取token),200,OK,Thread Group 2-99,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,335,0,32
+1592303850039,297,登入界面(获取token),200,OK,Thread Group 2-114,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,297,0,1
+1592303849999,344,登入界面(获取token),200,OK,Thread Group 2-65,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,344,0,28
+1592303850039,336,登入界面(获取token),200,OK,Thread Group 2-11,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,336,0,1
+1592303850039,345,登入界面(获取token),200,OK,Thread Group 2-82,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,345,0,1
+1592303850041,369,登入界面(获取token),200,OK,Thread Group 2-6,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,369,0,1
+1592303850042,368,登入界面(获取token),200,OK,Thread Group 2-103,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,368,0,1
+1592303850000,461,登入界面(获取token),200,OK,Thread Group 2-63,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,461,0,22
+1592303850047,420,登入界面(获取token),200,OK,Thread Group 2-105,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,420,0,0
+1592303850045,425,登入界面(获取token),200,OK,Thread Group 2-86,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,425,0,1
+1592303850045,425,登入界面(获取token),200,OK,Thread Group 2-84,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,425,0,0
+1592303850045,429,登入界面(获取token),200,OK,Thread Group 2-22,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,429,0,1
+1592303849999,477,登入界面(获取token),200,OK,Thread Group 2-87,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,477,0,30
+1592303850040,504,登入界面(获取token),200,OK,Thread Group 2-44,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,504,0,1
+1592303850045,500,登入界面(获取token),200,OK,Thread Group 2-102,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,500,0,0
+1592303850044,503,登入界面(获取token),200,OK,Thread Group 2-70,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,503,0,0
+1592303850040,511,登入界面(获取token),200,OK,Thread Group 2-58,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,511,0,1
+1592303850041,512,登入界面(获取token),200,OK,Thread Group 2-115,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,512,0,1
+1592303850046,510,登入界面(获取token),200,OK,Thread Group 2-66,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,510,0,0
+1592303850040,517,登入界面(获取token),200,OK,Thread Group 2-94,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,517,0,1
+1592303850041,543,登入界面(获取token),200,OK,Thread Group 2-72,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,543,0,0
+1592303850000,654,登入界面(获取token),200,OK,Thread Group 2-59,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,654,0,28
+1592303850041,615,登入界面(获取token),200,OK,Thread Group 2-64,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,615,0,0
+1592303849995,663,登入界面(获取token),200,OK,Thread Group 2-117,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,663,0,42
+1592303850048,612,登入界面(获取token),200,OK,Thread Group 2-61,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,612,0,0
+1592303850047,615,登入界面(获取token),200,OK,Thread Group 2-101,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,615,0,0
+1592303849995,670,登入界面(获取token),200,OK,Thread Group 2-2,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,670,0,44
+1592303849995,685,登入界面(获取token),200,OK,Thread Group 2-8,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,685,0,44
+1592303850043,638,登入界面(获取token),200,OK,Thread Group 2-75,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,638,0,1
+1592303849998,687,登入界面(获取token),200,OK,Thread Group 2-4,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,687,0,35
+1592303850047,641,登入界面(获取token),200,OK,Thread Group 2-67,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,641,0,1
+1592303850048,641,登入界面(获取token),200,OK,Thread Group 2-85,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,641,0,0
+1592303850044,648,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,648,0,1
+1592303850041,654,登入界面(获取token),200,OK,Thread Group 2-48,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,653,0,0
+1592303850048,650,登入界面(获取token),200,OK,Thread Group 2-109,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,650,0,1
+1592303850048,653,登入界面(获取token),200,OK,Thread Group 2-34,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,653,0,0
+1592303850049,653,登入界面(获取token),200,OK,Thread Group 2-12,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,653,0,0
+1592303850048,687,登入界面(获取token),200,OK,Thread Group 2-92,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,687,0,1
+1592303850044,708,登入界面(获取token),200,OK,Thread Group 2-56,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,708,0,0
+1592303850044,714,登入界面(获取token),200,OK,Thread Group 2-45,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,714,0,0
+1592303850043,719,登入界面(获取token),200,OK,Thread Group 2-96,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,719,0,0
+1592303850045,718,登入界面(获取token),200,OK,Thread Group 2-31,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,718,0,0
+1592303850047,718,登入界面(获取token),200,OK,Thread Group 2-33,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,718,0,1
+1592303850000,766,登入界面(获取token),200,OK,Thread Group 2-81,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,766,0,23
+1592303850043,728,登入界面(获取token),200,OK,Thread Group 2-29,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,728,0,1
+1592303850046,727,登入界面(获取token),200,OK,Thread Group 2-93,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,727,0,0
+1592303850047,729,登入界面(获取token),200,OK,Thread Group 2-16,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,729,0,0
+1592303850046,730,登入界面(获取token),200,OK,Thread Group 2-51,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,730,0,1
+1592303850044,736,登入界面(获取token),200,OK,Thread Group 2-88,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,736,0,1
+1592303850041,742,登入界面(获取token),200,OK,Thread Group 2-89,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,742,0,0
+1592303850040,743,登入界面(获取token),200,OK,Thread Group 2-25,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,743,0,0
+1592303850043,741,登入界面(获取token),200,OK,Thread Group 2-46,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,741,0,1
+1592303850043,741,登入界面(获取token),200,OK,Thread Group 2-53,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,741,0,0
+1592303850046,761,登入界面(获取token),200,OK,Thread Group 2-60,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,761,0,1
+1592303850042,767,登入界面(获取token),200,OK,Thread Group 2-95,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,767,0,0
+1592303850046,764,登入界面(获取token),200,OK,Thread Group 2-50,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,764,0,1
+1592303850049,766,登入界面(获取token),200,OK,Thread Group 2-54,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,766,0,0
+1592303850049,769,登入界面(获取token),200,OK,Thread Group 2-73,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,769,0,0
+1592303850048,770,登入界面(获取token),200,OK,Thread Group 2-74,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,770,0,0
+1592303850043,778,登入界面(获取token),200,OK,Thread Group 2-41,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,778,0,0
+1592303850042,780,登入界面(获取token),200,OK,Thread Group 2-116,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,780,0,0
+1592303850000,863,登入界面(获取token),200,OK,Thread Group 2-80,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,863,0,50
+1592303850000,863,登入界面(获取token),200,OK,Thread Group 2-57,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,863,0,50
+1592303850049,816,登入界面(获取token),200,OK,Thread Group 2-110,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,816,0,1
+1592303850000,867,登入界面(获取token),200,OK,Thread Group 2-120,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,867,0,50
+1592303850008,861,登入界面(获取token),200,OK,Thread Group 2-106,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,861,0,42
+1592303850003,868,登入界面(获取token),200,OK,Thread Group 2-118,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,868,0,47
+1592303850007,865,登入界面(获取token),200,OK,Thread Group 2-10,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,865,0,43
+1592303850000,874,登入界面(获取token),200,OK,Thread Group 2-49,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,874,0,50
+1592303850009,897,登入界面(获取token),200,OK,Thread Group 2-104,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,897,0,42
+1592303850009,898,登入界面(获取token),200,OK,Thread Group 2-119,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,898,0,42
+1592303850009,899,登入界面(获取token),200,OK,Thread Group 2-42,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,899,0,42
+1592303850009,901,登入界面(获取token),200,OK,Thread Group 2-43,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,901,0,42
+1592303850009,902,登入界面(获取token),200,OK,Thread Group 2-98,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,902,0,42
+1592303850009,905,登入界面(获取token),200,OK,Thread Group 2-68,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,905,0,42
+1592303850009,908,登入界面(获取token),200,OK,Thread Group 2-76,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,908,0,42
+1592303850008,912,登入界面(获取token),200,OK,Thread Group 2-9,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,912,0,43
+1592303850011,936,登入界面(获取token),200,OK,Thread Group 2-113,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,936,0,41
+1592303850010,939,登入界面(获取token),200,OK,Thread Group 2-35,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,939,0,42
+1592303850009,943,登入界面(获取token),200,OK,Thread Group 2-13,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,943,0,43
+1592303850011,942,登入界面(获取token),200,OK,Thread Group 2-18,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,942,0,41
+1592303850009,948,登入界面(获取token),200,OK,Thread Group 2-26,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,948,0,42
+1592303850009,951,登入界面(获取token),200,OK,Thread Group 2-27,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,951,0,43
+1592303850009,954,登入界面(获取token),200,OK,Thread Group 2-52,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,954,0,43
+1592303850009,956,登入界面(获取token),200,OK,Thread Group 2-19,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,956,0,42
+1592303850002,972,登入界面(获取token),200,OK,Thread Group 2-78,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,972,0,56
+1592303850004,971,登入界面(获取token),200,OK,Thread Group 2-40,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,971,0,54
+1592303850010,968,登入界面(获取token),200,OK,Thread Group 2-38,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,968,0,48
+1592303850003,981,登入界面(获取token),200,OK,Thread Group 2-39,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,981,0,51
+1592303850010,975,登入界面(获取token),200,OK,Thread Group 2-37,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,975,0,42
+1592303850010,981,登入界面(获取token),200,OK,Thread Group 2-14,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,981,0,47
+1592303850011,980,登入界面(获取token),200,OK,Thread Group 2-36,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,980,0,47
+1592303850001,999,登入界面(获取token),200,OK,Thread Group 2-17,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,999,0,58
+1592303850011,991,登入界面(获取token),200,OK,Thread Group 2-97,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,991,0,48
+1592303850011,994,登入界面(获取token),200,OK,Thread Group 2-32,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,994,0,48
+1592303850011,1011,登入界面(获取token),200,OK,Thread Group 2-100,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,1010,0,48
+1592303850002,1040,登入界面(获取token),200,OK,Thread Group 2-3,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,1040,0,59
+1592303850012,1030,登入界面(获取token),200,OK,Thread Group 2-28,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,1030,0,48
+1592303850003,1043,登入界面(获取token),200,OK,Thread Group 2-83,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,1043,0,57
+1592303850007,1054,登入界面(获取token),200,OK,Thread Group 2-20,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,1054,0,53
+1592303850002,1074,登入界面(获取token),200,OK,Thread Group 2-21,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,1074,0,60
+1592303850004,1074,登入界面(获取token),200,OK,Thread Group 2-112,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,1074,0,57
+1592303850010,1072,登入界面(获取token),200,OK,Thread Group 2-5,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,1072,0,53
+1592303850002,1080,登入界面(获取token),200,OK,Thread Group 2-7,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,1080,0,60
+1592303849999,1086,登入界面(获取token),200,OK,Thread Group 2-15,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,1085,0,62
+1592303850000,1086,登入界面(获取token),200,OK,Thread Group 2-108,text,true,,7215,417,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,1086,0,70
+1592303848227,3424,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,121,null,0,0,0
+1592303851458,949,登入,200,OK,Thread Group 2-83,text,true,,7367,723,120,121,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,949,0,0
+1592303851340,1069,登入,200,OK,Thread Group 2-110,text,true,,7367,723,119,120,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1069,0,0
+1592303851327,1082,登入,200,OK,Thread Group 2-74,text,true,,7367,723,119,120,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1082,0,0
+1592303851091,1321,登入,200,OK,Thread Group 2-11,text,true,,7367,723,117,118,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1321,0,0
+1592303851227,1187,登入,200,OK,Thread Group 2-101,text,true,,7367,723,116,117,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1187,0,0
+1592303851089,1325,登入,200,OK,Thread Group 2-30,text,true,,7367,723,115,116,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1325,0,0
+1592303851252,1171,登入,200,OK,Thread Group 2-109,text,true,,7367,723,114,115,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1171,0,0
+1592303851088,1336,登入,200,OK,Thread Group 2-91,text,true,,7367,723,113,114,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1336,0,0
+1592303851385,1040,登入,200,OK,Thread Group 2-9,text,true,,7367,723,112,113,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1040,0,0
+1592303851372,1054,登入,200,OK,Thread Group 2-43,text,true,,7367,723,111,112,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1054,0,0
+1592303851090,1337,登入,200,OK,Thread Group 2-114,text,true,,7367,723,110,111,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1337,0,0
+1592303851281,1148,登入,200,OK,Thread Group 2-81,text,true,,7367,723,109,110,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1148,0,0
+1592303851376,1058,登入,200,OK,Thread Group 2-68,text,true,,7367,723,108,109,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1058,0,0
+1592303851088,1346,登入,200,OK,Thread Group 2-107,text,true,,7367,723,108,109,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1346,0,0
+1592303851118,1322,登入,200,OK,Thread Group 2-6,text,true,,7367,723,106,107,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1322,0,0
+1592303851389,1052,登入,200,OK,Thread Group 2-13,text,true,,7367,723,105,106,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1052,0,0
+1592303851090,1352,登入,200,OK,Thread Group 2-99,text,true,,7367,723,104,105,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1352,0,0
+1592303851339,1103,登入,200,OK,Thread Group 2-57,text,true,,7367,723,104,105,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1103,0,0
+1592303851204,1244,登入,200,OK,Thread Group 2-58,text,true,,7367,723,102,103,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1244,0,0
+1592303851397,1055,登入,200,OK,Thread Group 2-26,text,true,,7367,723,101,102,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1054,0,0
+1592303851421,1035,登入,200,OK,Thread Group 2-40,text,true,,7367,723,100,101,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1035,0,0
+1592303851259,1198,登入,200,OK,Thread Group 2-34,text,true,,7367,723,99,100,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1198,0,0
+1592303851088,1371,登入,200,OK,Thread Group 2-24,text,true,,7367,723,98,99,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1371,0,0
+1592303851286,1174,登入,200,OK,Thread Group 2-29,text,true,,7367,723,97,98,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1174,0,0
+1592303851385,1077,登入,200,OK,Thread Group 2-113,text,true,,7367,723,96,97,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1077,0,0
+1592303851400,1063,登入,200,OK,Thread Group 2-27,text,true,,7367,723,95,96,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1063,0,0
+1592303851093,1375,登入,200,OK,Thread Group 2-82,text,true,,7367,723,94,95,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1375,0,0
+1592303851362,1110,登入,200,OK,Thread Group 2-49,text,true,,7367,723,94,95,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1110,0,0
+1592303851457,1016,登入,200,OK,Thread Group 2-28,text,true,,7367,723,92,93,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1016,0,0
+1592303851423,1050,登入,200,OK,Thread Group 2-39,text,true,,7367,723,92,93,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1050,0,0
+1592303851365,1115,登入,200,OK,Thread Group 2-119,text,true,,7367,723,90,91,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1115,0,0
+1592303851323,1159,登入,200,OK,Thread Group 2-54,text,true,,7367,723,89,90,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1159,0,0
+1592303851247,1235,登入,200,OK,Thread Group 2-85,text,true,,7367,723,89,90,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1235,0,0
+1592303851270,1214,登入,200,OK,Thread Group 2-56,text,true,,7367,723,87,88,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1214,0,0
+1592303851438,1046,登入,200,OK,Thread Group 2-97,text,true,,7367,723,87,88,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1046,0,0
+1592303851302,1187,登入,200,OK,Thread Group 2-89,text,true,,7367,723,85,86,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1187,0,0
+1592303851462,1029,登入,200,OK,Thread Group 2-21,text,true,,7367,723,84,85,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1029,0,0
+1592303851433,1059,登入,200,OK,Thread Group 2-14,text,true,,7367,723,83,84,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1059,0,0
+1592303851351,1147,登入,200,OK,Thread Group 2-118,text,true,,7367,723,82,83,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1147,0,0
+1592303851233,1265,登入,200,OK,Thread Group 2-2,text,true,,7367,723,82,83,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1265,0,0
+1592303851090,1412,登入,200,OK,Thread Group 2-65,text,true,,7367,723,80,81,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1412,0,0
+1592303851397,1105,登入,200,OK,Thread Group 2-18,text,true,,7367,723,80,81,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1105,0,0
+1592303851089,1413,登入,200,OK,Thread Group 2-62,text,true,,7367,723,80,81,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1413,0,0
+1592303851297,1208,登入,200,OK,Thread Group 2-88,text,true,,7367,723,77,78,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1208,0,0
+1592303851128,1378,登入,200,OK,Thread Group 2-103,text,true,,7367,723,76,77,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1378,0,0
+1592303851166,1346,登入,200,OK,Thread Group 2-22,text,true,,7367,723,75,76,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1346,0,0
+1592303851089,1424,登入,200,OK,Thread Group 2-79,text,true,,7367,723,75,76,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1424,0,0
+1592303851138,1377,登入,200,OK,Thread Group 2-63,text,true,,7367,723,73,74,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1377,0,0
+1592303851265,1251,登入,200,OK,Thread Group 2-92,text,true,,7367,723,72,73,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1251,0,0
+1592303851245,1271,登入,200,OK,Thread Group 2-67,text,true,,7367,723,72,73,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1271,0,0
+1592303851388,1131,登入,200,OK,Thread Group 2-35,text,true,,7367,723,70,71,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1131,0,0
+1592303851210,1312,登入,200,OK,Thread Group 2-94,text,true,,7367,723,69,70,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1312,0,0
+1592303851288,1239,登入,200,OK,Thread Group 2-93,text,true,,7367,723,68,69,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1239,0,0
+1592303851227,1301,登入,200,OK,Thread Group 2-61,text,true,,7367,723,67,68,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1301,0,0
+1592303851349,1179,登入,200,OK,Thread Group 2-106,text,true,,7367,723,67,68,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1179,0,0
+1592303851446,1090,登入,200,OK,Thread Group 2-3,text,true,,7367,723,65,66,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1090,0,0
+1592303851192,1349,登入,200,OK,Thread Group 2-70,text,true,,7367,723,64,65,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1349,0,0
+1592303851425,1121,登入,200,OK,Thread Group 2-37,text,true,,7367,723,63,64,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1121,0,0
+1592303851089,1460,登入,200,OK,Thread Group 2-111,text,true,,7367,723,62,63,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1460,0,0
+1592303851337,1217,登入,200,OK,Thread Group 2-80,text,true,,7367,723,61,62,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1217,0,0
+1592303851276,1278,登入,200,OK,Thread Group 2-31,text,true,,7367,723,60,61,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1278,0,0
+1592303851411,1146,登入,200,OK,Thread Group 2-52,text,true,,7367,723,59,60,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1146,0,0
+1592303851461,1098,登入,200,OK,Thread Group 2-20,text,true,,7367,723,58,59,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1098,0,0
+1592303851221,1339,登入,200,OK,Thread Group 2-64,text,true,,7367,723,57,58,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1339,0,0
+1592303851252,1310,登入,200,OK,Thread Group 2-48,text,true,,7367,723,56,57,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1310,0,0
+1592303851088,1481,登入,200,OK,Thread Group 2-55,text,true,,7367,723,55,56,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1481,0,0
+1592303851276,1293,登入,200,OK,Thread Group 2-96,text,true,,7367,723,55,56,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1293,0,0
+1592303851180,1392,登入,200,OK,Thread Group 2-44,text,true,,7367,723,53,54,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1392,0,0
+1592303851377,1200,登入,200,OK,Thread Group 2-76,text,true,,7367,723,52,53,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1200,0,0
+1592303851314,1265,登入,200,OK,Thread Group 2-95,text,true,,7367,723,51,52,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1265,0,0
+1592303851090,1491,登入,200,OK,Thread Group 2-90,text,true,,7367,723,50,51,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1491,0,0
+1592303851279,1304,登入,200,OK,Thread Group 2-33,text,true,,7367,723,49,50,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1304,0,0
+1592303851348,1237,登入,200,OK,Thread Group 2-120,text,true,,7367,723,48,49,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1237,0,0
+1592303851292,1300,登入,200,OK,Thread Group 2-51,text,true,,7367,723,47,48,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1299,0,0
+1592303851239,1353,登入,200,OK,Thread Group 2-4,text,true,,7367,723,47,48,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1352,0,0
+1592303851329,1264,登入,200,OK,Thread Group 2-41,text,true,,7367,723,45,46,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1263,0,0
+1592303851142,1454,登入,200,OK,Thread Group 2-105,text,true,,7367,723,44,45,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1454,0,0
+1592303851222,1376,登入,200,OK,Thread Group 2-117,text,true,,7367,723,43,44,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1376,0,0
+1592303851317,1281,登入,200,OK,Thread Group 2-50,text,true,,7367,723,43,44,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1281,0,0
+1592303851088,1518,登入,200,OK,Thread Group 2-23,text,true,,7367,723,41,42,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1518,0,0
+1592303851352,1255,登入,200,OK,Thread Group 2-10,text,true,,7367,723,40,41,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1255,0,0
+1592303851088,1519,登入,200,OK,Thread Group 2-108,text,true,,7367,723,40,41,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1519,0,0
+1592303851468,1141,登入,200,OK,Thread Group 2-112,text,true,,7367,723,38,39,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1141,0,0
+1592303851422,1189,登入,200,OK,Thread Group 2-38,text,true,,7367,723,37,38,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1189,0,0
+1592303851300,1311,登入,200,OK,Thread Group 2-25,text,true,,7367,723,37,38,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1311,0,0
+1592303851291,1322,登入,200,OK,Thread Group 2-16,text,true,,7367,723,35,36,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1322,0,0
+1592303851434,1179,登入,200,OK,Thread Group 2-36,text,true,,7367,723,35,36,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1179,0,0
+1592303851201,1419,登入,200,OK,Thread Group 2-115,text,true,,7367,723,33,34,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1419,0,0
+1592303851152,1471,登入,200,OK,Thread Group 2-86,text,true,,7367,723,32,33,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1471,0,0
+1592303851273,1351,登入,200,OK,Thread Group 2-45,text,true,,7367,723,32,33,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1350,0,0
+1592303851154,1471,登入,200,OK,Thread Group 2-84,text,true,,7367,723,30,31,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1471,0,0
+1592303851473,1153,登入,200,OK,Thread Group 2-7,text,true,,7367,723,29,30,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1153,0,0
+1592303851088,1539,登入,200,OK,Thread Group 2-47,text,true,,7367,723,28,29,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1539,0,0
+1592303851366,1264,登入,200,OK,Thread Group 2-42,text,true,,7367,723,27,28,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1264,0,0
+1592303851216,1421,登入,200,OK,Thread Group 2-59,text,true,,7367,723,26,27,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1421,0,0
+1592303851434,1204,登入,200,OK,Thread Group 2-17,text,true,,7367,723,25,26,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1204,0,0
+1592303851089,1551,登入,200,OK,Thread Group 2-71,text,true,,7367,723,24,25,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1551,0,0
+1592303851473,1168,登入,200,OK,Thread Group 2-15,text,true,,7367,723,23,24,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1168,0,0
+1592303851210,1432,登入,200,OK,Thread Group 2-66,text,true,,7367,723,22,23,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1432,0,0
+1592303851445,1200,登入,200,OK,Thread Group 2-32,text,true,,7367,723,21,22,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1200,0,0
+1592303851088,1560,登入,200,OK,Thread Group 2-69,text,true,,7367,723,20,21,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1560,0,0
+1592303851410,1243,登入,200,OK,Thread Group 2-19,text,true,,7367,723,19,20,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1243,0,0
+1592303851175,1479,登入,200,OK,Thread Group 2-87,text,true,,7367,723,18,19,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1479,0,0
+1592303851374,1281,登入,200,OK,Thread Group 2-98,text,true,,7367,723,17,18,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1281,0,0
+1592303851413,1243,登入,200,OK,Thread Group 2-78,text,true,,7367,723,16,17,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1243,0,0
+1592303851239,1418,登入,200,OK,Thread Group 2-75,text,true,,7367,723,15,16,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1418,0,0
+1592303851364,1296,登入,200,OK,Thread Group 2-104,text,true,,7367,723,14,15,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1296,0,0
+1592303851190,1471,登入,200,OK,Thread Group 2-102,text,true,,7367,723,13,14,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1471,0,0
+1592303851469,1196,登入,200,OK,Thread Group 2-5,text,true,,7367,723,12,13,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1196,0,0
+1592303851326,1339,登入,200,OK,Thread Group 2-73,text,true,,7367,723,11,12,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1339,0,0
+1592303851251,1421,登入,200,OK,Thread Group 2-1,text,true,,7367,723,10,11,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1421,0,0
+1592303851215,1457,登入,200,OK,Thread Group 2-72,text,true,,7367,723,9,10,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1457,0,0
+1592303851311,1362,登入,200,OK,Thread Group 2-53,text,true,,7367,723,8,9,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1362,0,0
+1592303851446,1229,登入,200,OK,Thread Group 2-100,text,true,,7367,723,7,8,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1229,0,0
+1592303851305,1370,登入,200,OK,Thread Group 2-46,text,true,,7367,723,7,8,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1370,0,0
+1592303851088,1590,登入,200,OK,Thread Group 2-77,text,true,,7367,723,5,6,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1590,0,0
+1592303851234,1447,登入,200,OK,Thread Group 2-8,text,true,,7367,723,4,5,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1447,0,0
+1592303851263,1419,登入,200,OK,Thread Group 2-12,text,true,,7367,723,3,4,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1419,0,0
+1592303851337,1351,登入,200,OK,Thread Group 2-116,text,true,,7367,723,2,3,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1351,0,0
+1592303851313,1375,登入,200,OK,Thread Group 2-60,text,true,,7367,723,2,3,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,1375,0,0
+1592303852282,3249,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,1,null,0,0,0
+1592303856040,2868,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303859419,2862,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,1,null,0,0,0
+1592303862787,2861,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303866162,2863,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303869531,2869,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303872904,2868,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,1,null,0,0,0
+1592303876274,2878,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303879660,2909,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,1,null,0,0,0
+1592303883090,2887,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303886487,2857,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303889857,2880,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,1,null,0,0,0
+1592303893238,2855,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303896610,2872,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303900000,2876,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,1,null,0,0,0
+1592303903395,2891,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303906789,2864,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,1,null,0,0,0
+1592303910163,2880,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,1,null,0,0,0
+1592303913556,2847,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,1,null,0,0,0
+1592303916913,2904,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303920377,2904,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303923794,2884,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303927192,2891,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303930594,2881,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0
+1592303933994,2907,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,1,null,0,0,0
+1592303937410,2897,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0

@@ -1,0 +1,1002 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1592304927645,123,JSR223 Sampler,200,OK,专用线程组（需修改Duration） 1-1,text,true,,0,0,1,2,null,0,0,0
+1592304927763,69,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7215,417,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,67,0,28
+1592304927836,45,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,38,0,0
+1592304927881,36,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,36,0,0
+1592304927917,26,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,24,0,0
+1592304927944,32,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304927976,41,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304927976,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304928000,18,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,18,0,0
+1592304928018,84,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,2,0
+1592304928019,44,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,22,0,0
+1592304928063,40,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304928104,22,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,22,0,0
+1592304928127,33,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,26,0,0
+1592304928161,27,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304928188,29,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,26,0,0
+1592304928218,40,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,32,0,0
+1592304928259,46,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,2,0
+1592304928259,27,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,27,0,0
+1592304928287,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304928307,86,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,6,0
+1592304928307,41,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304928349,45,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304928399,22,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,22,0,0
+1592304928422,28,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,26,0,0
+1592304928451,27,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304928478,30,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,28,0,0
+1592304928508,32,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304928540,59,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304928540,25,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,25,0,0
+1592304928565,34,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,34,0,0
+1592304928600,87,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304928600,48,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,19,0,0
+1592304928649,39,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304928689,22,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,22,0,0
+1592304928712,28,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,25,0,0
+1592304928740,27,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304928767,28,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,26,0,0
+1592304928796,31,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304928827,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,2,0
+1592304928828,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304928861,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304928891,111,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304928891,60,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304928951,51,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304929003,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304929035,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,25,0,0
+1592304929063,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304929100,31,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,28,0,0
+1592304929131,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304929173,52,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304929173,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304929196,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304929225,120,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304929226,60,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304929286,60,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304929347,34,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,34,0,0
+1592304929382,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,36,0,0
+1592304929421,39,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,39,0,0
+1592304929461,40,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304929501,46,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,44,0,0
+1592304929548,42,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304929548,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304929572,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304929591,126,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304929592,62,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304929654,64,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304929719,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304929751,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304929788,38,首页,200,OK,Thread Group 2-1,text,true,,7157,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,2
+1592304929826,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304929865,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304929907,60,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304929907,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304929939,28,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,28,0,0
+1592304929968,117,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,2,0
+1592304929968,59,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304930028,58,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304930087,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304930120,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,36,0,0
+1592304930159,38,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304930197,36,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,34,0,0
+1592304930234,40,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304930275,63,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304930275,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304930308,31,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,31,0,0
+1592304930340,120,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304930340,60,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304930400,60,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304930461,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304930492,39,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,37,0,0
+1592304930532,29,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304930561,29,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,27,0,0
+1592304930591,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304930633,53,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304930633,34,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,34,0,0
+1592304930667,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304930687,102,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304930687,60,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304930747,42,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,19,0,0
+1592304930789,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304930822,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304930859,36,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,36,0,0
+1592304930896,36,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,34,0,0
+1592304930933,40,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304930973,62,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304930973,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304931006,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304931035,117,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304931035,58,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304931094,59,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304931154,30,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304931184,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,36,0,0
+1592304931222,47,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,47,0,0
+1592304931269,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304928391,2943,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,2,null,0,0,0
+1592304931308,46,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,41,0,0
+1592304931354,52,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304931354,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304931378,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304931407,109,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,2,0
+1592304931408,58,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304931466,51,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304931518,23,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,23,0,0
+1592304931541,31,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,28,0,0
+1592304931572,28,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304931600,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304931639,43,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,41,0,0
+1592304931683,54,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304931683,24,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304931707,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304931738,105,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15285,2634,1,2,null,0,0,0
+1592304931738,52,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304931790,53,提交,200,OK,Thread Group 2-1,text,true,,7643,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,1
+1592304931843,22,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,22,0,0
+1592304931866,28,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,25,0,0
+1592304931894,29,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304931924,28,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,25,0,0
+1592304931952,31,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304931983,39,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,2,0
+1592304931984,21,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,21,0,0
+1592304932006,18,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,18,0,0
+1592304932024,88,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304932024,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304932063,49,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304932113,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304932135,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304932162,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304932189,27,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,25,0,0
+1592304932216,31,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304932247,40,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304932247,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304932269,18,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,18,0,0
+1592304932288,77,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304932288,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304932328,38,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304932366,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304932388,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304932415,33,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,33,0,0
+1592304932449,36,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,34,0,0
+1592304932486,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304932528,42,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304932528,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304932550,20,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,20,0,0
+1592304932570,77,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304932570,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304932609,38,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304932648,20,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,20,0,0
+1592304932669,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304932705,27,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304932733,28,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,26,0,0
+1592304932762,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304932804,52,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304932804,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304932837,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304932856,108,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304932856,49,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304932906,59,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304932965,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304932998,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304933035,38,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304933073,28,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,25,0,0
+1592304933101,46,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,43,0,0
+1592304933147,65,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304933147,34,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,34,0,0
+1592304933181,31,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,31,0,0
+1592304933212,120,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304933212,61,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304933274,59,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304933333,33,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,33,0,0
+1592304933366,41,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,38,0,0
+1592304933407,40,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,40,0,0
+1592304933447,41,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,38,0,0
+1592304933488,43,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304933531,45,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304933531,25,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,25,0,0
+1592304933556,20,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,20,0,0
+1592304933576,107,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304933576,50,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,19,0,0
+1592304933626,57,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304933684,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304933715,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304933753,38,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304933791,41,抢购页面,200,OK,Thread Group 2-1,text,true,,26990,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,39,0,1
+1592304933833,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304933875,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304933875,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304933908,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304933938,118,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304933938,60,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304933999,58,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304934057,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304934090,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304934127,38,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304934165,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304934205,43,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,41,0,0
+1592304934248,65,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304934248,34,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,34,0,0
+1592304934282,31,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,31,0,0
+1592304934313,108,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,3,0
+1592304934314,60,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304934375,48,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304934424,30,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304934455,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304934494,39,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,39,0,0
+1592304934533,31,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,29,0,0
+1592304934565,43,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304934608,60,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304934608,31,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,31,0,0
+1592304934639,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304934669,114,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304934669,57,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304934727,57,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304934784,33,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,33,0,0
+1592304931913,2903,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,2,null,0,0,0
+1592304934818,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,36,0,0
+1592304934857,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304934894,40,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,38,0,0
+1592304934934,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304934976,63,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304934976,34,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,34,0,0
+1592304935010,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304935039,125,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304935039,64,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304935103,61,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304935165,25,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,25,0,0
+1592304935190,31,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,27,0,0
+1592304935221,29,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304935250,40,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304935290,34,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,32,0,0
+1592304935324,42,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304935325,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304935348,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304935367,76,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304935368,38,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304935406,38,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304935445,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304935466,28,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,25,0,0
+1592304935495,28,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304935523,40,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,38,0,0
+1592304935564,33,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,30,0,0
+1592304935597,41,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304935597,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304935619,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,18,0,0
+1592304935638,76,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304935638,38,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304935676,38,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304935715,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304935747,29,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,26,0,0
+1592304935776,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304935803,29,抢购页面,200,OK,Thread Group 2-1,text,true,,26990,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,26,0,0
+1592304935832,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304935874,42,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304935874,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304935897,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304935916,95,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304935916,48,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304935965,47,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304936012,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304936043,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304936080,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304936107,27,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,24,0,0
+1592304936134,40,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304936175,51,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304936175,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304936207,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304936227,122,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304936227,59,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304936287,63,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304936350,33,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,33,0,0
+1592304936383,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304936420,36,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,36,0,0
+1592304936456,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304936495,43,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304936538,55,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304936538,25,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,25,0,0
+1592304936563,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304936593,117,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304936593,60,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304936653,57,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304936711,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304936744,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304936781,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304936819,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304936858,48,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,46,0,0
+1592304936906,64,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304936906,35,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,35,0,0
+1592304936941,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304936970,117,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304936970,59,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304937029,58,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304937088,30,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304937119,36,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304937155,39,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,39,0,0
+1592304937194,75,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,73,0,0
+1592304937269,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304937311,60,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304937311,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304937344,28,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,28,0,0
+1592304937372,119,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304937372,60,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304937432,59,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304937491,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304937522,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,36,0,0
+1592304937560,28,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304937589,28,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,26,0,0
+1592304937617,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304937659,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304937659,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304937692,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304937722,125,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15285,2634,1,2,null,0,0,0
+1592304937722,64,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304937786,61,提交,200,OK,Thread Group 2-1,text,true,,7643,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304937847,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304937879,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304937916,27,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304937943,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304937981,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304938022,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304938022,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304938055,28,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,28,0,0
+1592304938084,120,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304938084,60,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304938144,60,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304938204,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304935343,2914,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,2,null,0,0,0
+1592304938236,42,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304938278,28,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304938306,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304938345,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304938386,59,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304938386,31,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,31,0,0
+1592304938418,28,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,28,0,0
+1592304938446,108,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304938447,58,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304938505,50,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304938555,23,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,23,0,0
+1592304938578,30,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,27,0,0
+1592304938608,38,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304938646,31,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,28,0,0
+1592304938677,33,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,31,0,0
+1592304938711,64,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304938711,35,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,35,0,0
+1592304938746,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304938775,102,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304938775,51,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304938826,51,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,19,0,0
+1592304938878,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304938899,28,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,26,0,0
+1592304938927,27,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304938954,28,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,26,0,0
+1592304938983,31,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304939014,40,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304939014,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304939037,18,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,18,0,0
+1592304939055,76,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304939055,38,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304939093,38,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304939131,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304939152,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304939179,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304939205,27,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,25,0,0
+1592304939232,32,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,30,0,0
+1592304939264,41,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304939265,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304939287,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304939306,88,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304939306,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304939345,49,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304939395,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304939416,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304939443,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304939469,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304939507,32,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,30,0,0
+1592304939540,42,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304939540,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304939563,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304939583,75,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304939583,38,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304939622,37,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304939660,20,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,20,0,0
+1592304939682,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304939720,35,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,35,0,0
+1592304939756,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304939795,43,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,41,0,0
+1592304939838,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1472,1371,1,2,null,0,2,0
+1592304939839,32,金额,200,OK,Thread Group 2-1,text,true,,1006,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304939872,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304939901,122,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304939901,60,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304939961,62,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304940023,30,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304940054,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304940091,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304940128,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304940166,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304940207,62,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304940208,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304940241,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304940270,117,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,2,0
+1592304940271,59,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304940330,58,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304940389,30,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304940420,28,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,25,0,0
+1592304940448,36,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,36,0,0
+1592304940484,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,35,0,0
+1592304940522,39,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,37,0,0
+1592304940561,42,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304940561,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304940585,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304940604,114,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304940604,53,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304940657,61,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304940718,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304940751,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304940789,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304940826,29,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,27,0,0
+1592304940856,40,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304940896,63,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304940896,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304940929,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304940959,125,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304940959,63,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304941022,62,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304941085,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304941116,42,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,40,0,0
+1592304941159,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304941185,41,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,38,0,0
+1592304941226,43,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,41,0,0
+1592304941269,63,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304941269,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304941301,31,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304941332,124,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304941332,62,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304941394,62,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304941457,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304941489,40,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,37,0,0
+1592304941529,38,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304941568,28,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,25,0,0
+1592304941596,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304938782,2883,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,2,null,0,0,0
+1592304941638,53,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304941638,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304941671,20,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,20,0,0
+1592304941691,116,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304941691,58,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304941750,58,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304941809,30,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304941840,36,登入,200,OK,Thread Group 2-1,text,true,,22955,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304941876,38,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304941915,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304941953,43,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304941996,54,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304941996,34,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,34,0,0
+1592304942030,20,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,20,0,0
+1592304942050,111,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304942051,50,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304942101,61,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304942163,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304942196,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304942234,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304942272,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304942311,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304942353,43,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,2,0
+1592304942354,25,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,25,0,0
+1592304942380,18,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,18,0,0
+1592304942399,79,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304942399,40,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304942439,39,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304942478,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304942500,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304942527,27,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304942554,27,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,25,0,0
+1592304942581,31,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304942612,42,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304942612,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304942635,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304942654,78,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304942654,40,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304942694,38,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304942732,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304942753,26,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304942780,25,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,25,0,0
+1592304942805,37,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,35,0,0
+1592304942842,31,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304942873,39,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304942874,21,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,21,0,0
+1592304942895,18,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,18,0,0
+1592304942913,75,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304942913,37,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304942950,38,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304942988,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304943009,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304943046,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304943083,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304943122,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304943164,64,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304943164,34,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,34,0,0
+1592304943198,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304943228,122,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,2,0
+1592304943229,61,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304943291,61,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304943353,30,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304943383,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304943420,38,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304943459,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304943498,45,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,42,0,0
+1592304943543,42,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304943543,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304943566,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304943585,120,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304943586,59,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304943645,61,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304943707,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304943739,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,36,0,0
+1592304943777,57,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,57,0,0
+1592304943834,37,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,35,0,0
+1592304943871,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36274,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,1
+1592304943912,63,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304943912,34,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,34,0,0
+1592304943946,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304943975,117,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,2,0
+1592304943976,58,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304944035,59,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304944094,30,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304944125,36,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304944161,40,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,40,0,0
+1592304944201,37,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,35,0,0
+1592304944238,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304944280,51,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304944280,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304944312,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304944331,123,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304944331,61,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304944392,62,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304944454,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304944487,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304944525,44,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,44,0,0
+1592304944569,29,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,27,0,0
+1592304944598,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304944640,51,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304944640,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304944663,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304944692,122,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304944693,62,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304944755,60,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304944815,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304944848,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,36,0,0
+1592304944886,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304944923,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304944963,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304945004,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,2,0
+1592304945005,31,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,31,0,0
+1592304945037,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304942190,2900,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,2,null,0,0,0
+1592304945068,111,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304945068,51,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304945119,60,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304945179,34,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,34,0,0
+1592304945213,42,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,39,0,0
+1592304945255,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304945292,40,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,38,0,0
+1592304945332,44,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304945376,65,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304945376,35,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,35,0,0
+1592304945411,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304945442,110,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304945442,51,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304945493,59,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304945552,22,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,22,0,0
+1592304945575,29,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,27,0,0
+1592304945605,29,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304945634,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304945673,32,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304945705,44,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304945705,25,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,25,0,0
+1592304945731,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304945750,80,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304945750,40,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304945790,40,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304945830,28,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304945859,35,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,32,0,0
+1592304945894,33,首页,200,OK,Thread Group 2-1,text,true,,7157,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,33,0,0
+1592304945927,32,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,27,0,0
+1592304945960,33,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,31,0,0
+1592304945993,41,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304945994,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304946016,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304946036,79,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304946036,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304946075,40,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304946115,29,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304946145,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,25,0,0
+1592304946172,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304946199,27,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,25,0,0
+1592304946226,31,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304946257,40,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304946257,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304946280,17,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,17,0,0
+1592304946298,106,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304946298,58,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304946356,48,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304946405,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304946437,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304946474,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304946511,29,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,27,0,0
+1592304946540,34,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,31,0,0
+1592304946574,41,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,2,0
+1592304946574,24,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,24,0,0
+1592304946599,17,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,17,0,0
+1592304946617,112,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304946617,52,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304946669,60,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304946730,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304946751,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,36,0,0
+1592304946790,39,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,39,0,0
+1592304946829,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304946868,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304946909,62,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304946909,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304946941,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304946971,118,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304946971,59,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304947030,59,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304947089,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304947121,49,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,46,0,0
+1592304947170,39,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,39,0,0
+1592304947209,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304947247,40,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304947288,62,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304947288,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304947321,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304947350,118,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304947350,59,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304947410,59,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304947469,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304947501,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304947538,28,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304947567,29,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,26,0,0
+1592304947596,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304947638,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304947638,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304947670,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304947699,119,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304947699,58,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304947757,61,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304947818,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304947850,36,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304947886,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304947913,37,抢购页面,200,OK,Thread Group 2-1,text,true,,26990,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,35,0,0
+1592304947950,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304947991,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304947991,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304948024,28,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,28,0,0
+1592304948053,118,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304948053,74,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304948127,44,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,20,0,0
+1592304948171,41,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,41,0,0
+1592304948212,36,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304948248,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304948285,36,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,34,0,0
+1592304948321,40,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304948361,62,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304948361,34,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,34,0,0
+1592304948396,28,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,28,0,0
+1592304948424,107,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304948425,57,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304948482,50,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304948532,25,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,25,0,0
+1592304948557,29,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,26,0,0
+1592304948586,38,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304945652,2972,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,2,null,0,0,0
+1592304948624,33,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,31,0,0
+1592304948657,40,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304948697,60,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304948697,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304948730,28,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,28,0,0
+1592304948758,117,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304948758,59,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304948817,58,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304948875,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304948907,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304948944,38,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304948982,33,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,31,0,0
+1592304949015,33,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,30,0,0
+1592304949048,53,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304949048,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304949071,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304949101,88,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,2,0
+1592304949102,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304949142,49,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304949191,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304949223,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304949250,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304949276,28,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,26,0,0
+1592304949304,43,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,41,0,0
+1592304949347,41,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304949347,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304949370,18,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,18,0,0
+1592304949388,77,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304949388,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304949427,38,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304949465,83,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,83,0,0
+1592304949549,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304949576,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304949603,26,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,24,0,0
+1592304949630,30,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,28,0,0
+1592304949660,40,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304949660,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304949682,18,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,18,0,0
+1592304949701,87,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304949701,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304949740,48,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304949788,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304949809,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,25,0,0
+1592304949837,25,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,25,0,0
+1592304949863,26,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,24,0,0
+1592304949890,29,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,27,0,0
+1592304949920,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1472,1371,1,2,null,0,0,0
+1592304949920,32,金额,200,OK,Thread Group 2-1,text,true,,1006,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304949952,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304949981,109,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304949981,49,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304950030,60,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304950091,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304950122,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304950160,41,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,41,0,0
+1592304950201,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304950240,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304950281,60,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304950281,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304950313,28,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,28,0,0
+1592304950342,117,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304950342,59,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304950401,58,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304950460,30,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304950491,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304950530,39,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304950569,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304950608,40,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304950648,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304950648,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304950680,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304950709,120,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304950709,60,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304950769,60,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304950830,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304950861,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304950899,40,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,40,0,0
+1592304950939,37,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,35,0,0
+1592304950976,43,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,41,0,0
+1592304951020,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304951020,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304951052,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304951082,115,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304951082,58,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304951140,57,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304951197,33,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,33,0,0
+1592304951231,36,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304951267,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304951304,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304951343,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,40,0,0
+1592304951385,63,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304951385,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304951418,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304951449,112,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304951449,61,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304951510,51,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304951561,33,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,33,0,0
+1592304951594,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,36,0,0
+1592304951633,36,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,36,0,0
+1592304951669,41,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,38,0,0
+1592304951710,44,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,41,0,0
+1592304951754,59,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,2,0
+1592304951754,31,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,31,0,0
+1592304951786,28,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,28,0,0
+1592304951815,106,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304951815,58,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304951874,48,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304951922,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7157,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,1
+1592304951954,36,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,34,0,0
+1592304951991,41,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,41,0,0
+1592304949147,2889,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,33,0,1,2,null,0,0,0
+1592304952033,34,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,31,0,0
+1592304952067,31,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304952098,63,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304952098,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304952131,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304952161,110,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304952161,61,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304952222,49,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304952272,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304952304,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304952342,36,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,36,0,0
+1592304952378,30,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,27,0,0
+1592304952408,42,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304952450,43,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304952450,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304952473,20,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,20,0,0
+1592304952494,80,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304952494,41,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304952536,39,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304952575,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304952596,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304952623,31,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304952654,27,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,25,0,0
+1592304952681,32,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304952713,42,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304952713,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304952735,20,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,20,0,0
+1592304952756,76,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304952756,38,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304952795,38,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304952833,22,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,22,0,0
+1592304952855,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304952882,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304952908,40,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,38,0,0
+1592304952949,37,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,35,0,0
+1592304952986,42,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304952986,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304953009,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304953028,88,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304953028,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,19,0,0
+1592304953067,49,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304953117,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304953149,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304953176,26,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,26,0,0
+1592304953202,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304953242,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304953284,62,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304953284,32,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304953316,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304953346,89,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304953346,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304953385,50,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,19,0,0
+1592304953435,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304953468,41,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,39,0,0
+1592304953510,38,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,38,0,0
+1592304953549,49,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,47,0,0
+1592304953599,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,39,0,0
+1592304953640,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304953640,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304953673,28,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,28,0,0
+1592304953701,111,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304953702,59,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304953761,52,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304953813,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304953844,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304953882,44,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,44,0,0
+1592304953926,36,抢购页面,200,OK,Thread Group 2-1,text,true,,26990,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,34,0,0
+1592304953962,44,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,42,0,0
+1592304954007,51,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304954007,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304954029,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304954058,101,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304954058,61,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304954119,40,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,19,0,0
+1592304954160,22,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,22,0,0
+1592304954182,31,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,28,0,0
+1592304954213,30,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304954243,27,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,24,0,0
+1592304954270,31,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304954301,39,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,2,0
+1592304954302,21,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,21,0,0
+1592304954324,18,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,18,0,0
+1592304954342,87,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304954342,38,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304954380,49,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304954430,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304954452,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,24,0,0
+1592304954479,36,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,36,0,0
+1592304954515,28,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,26,0,0
+1592304954544,33,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,30,0,0
+1592304954578,40,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304954578,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304954600,18,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,18,0,0
+1592304954619,76,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304954619,38,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304954657,38,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304954695,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304954716,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,25,0,0
+1592304954744,25,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,25,0,0
+1592304954769,27,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,25,0,0
+1592304954796,31,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304954827,42,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304954827,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304954849,20,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,20,0,0
+1592304954869,77,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304954869,40,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,19,0,0
+1592304954910,37,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304954947,22,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,22,0,0
+1592304954969,27,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,25,0,0
+1592304954996,30,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304955027,144,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,141,0,0
+1592304955171,44,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,42,0,0
+1592304955215,43,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304955215,24,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,24,0,0
+1592304955239,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304955258,92,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304955258,50,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304955308,42,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,19,0,0
+1592304955350,23,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,23,0,0
+1592304955374,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304955411,40,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,40,0,0
+1592304952554,2901,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,2,null,0,0,0
+1592304955451,32,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,30,0,0
+1592304955483,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304955524,43,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304955524,24,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,24,0,0
+1592304955548,19,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,19,0,0
+1592304955567,101,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304955568,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304955607,62,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304955670,30,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,30,0,0
+1592304955701,35,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,33,0,0
+1592304955737,36,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,36,0,0
+1592304955773,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304955812,36,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,33,0,0
+1592304955848,64,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304955848,35,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,35,0,0
+1592304955884,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304955913,91,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15285,2634,1,2,null,0,1,0
+1592304955914,50,订单信息,200,OK,Thread Group 2-1,text,true,,7643,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304955964,41,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,19,0,0
+1592304956005,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304956037,38,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,36,0,0
+1592304956076,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304956113,39,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,37,0,0
+1592304956153,32,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,29,0,0
+1592304956185,45,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304956185,23,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,23,0,0
+1592304956208,22,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,22,0,0
+1592304956230,77,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304956230,39,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304956269,38,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304956307,20,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,20,0,0
+1592304956328,26,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,23,0,0
+1592304956354,27,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304956381,37,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,35,0,0
+1592304956418,31,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,28,0,0
+1592304956449,52,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304956449,22,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,22,0,0
+1592304956471,30,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,30,0,0
+1592304956501,91,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304956501,51,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,29,0,0
+1592304956552,40,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304956592,21,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,21,0,0
+1592304956613,26,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,23,0,0
+1592304956639,25,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,25,0,0
+1592304956664,26,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,24,0,0
+1592304956690,41,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304956731,61,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304956731,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,32,0,0
+1592304956764,28,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,28,0,0
+1592304956792,108,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304956792,49,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,17,0,0
+1592304956841,59,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,28,0,0
+1592304956901,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304956933,37,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,35,0,0
+1592304956970,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304957007,46,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,44,0,0
+1592304957053,43,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,41,0,0
+1592304957096,62,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,1,0
+1592304957097,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304957130,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304957159,116,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,0,0
+1592304957159,58,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304957217,58,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,27,0,0
+1592304957275,31,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,31,0,0
+1592304957307,36,登入,200,OK,Thread Group 2-1,text,true,,22954,705,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login_act,33,0,0
+1592304957343,37,首页,200,OK,Thread Group 2-1,text,true,,7156,532,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,37,0,0
+1592304957380,38,抢购页面,200,OK,Thread Group 2-1,text,true,,26989,533,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flash,36,0,0
+1592304957419,40,立即抢购,200,OK,Thread Group 2-1,text,true,,36273,539,1,2,http://192.168.56.1/tinyshop/index.php?con=index&act=flashbuy&id=1,38,0,0
+1592304957460,62,填写信息,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1471,1371,1,2,null,0,0,0
+1592304957460,33,金额,200,OK,Thread Group 2-1,text,true,,1005,677,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=get_voucher,33,0,0
+1592304957493,29,重量,200,OK,Thread Group 2-1,text,true,,466,694,1,2,http://192.168.56.1/tinyshop/index.php?con=ajax&act=calculate_fare,29,0,0
+1592304957522,98,提交订单,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,15284,2634,1,2,null,0,1,0
+1592304957522,49,订单信息,200,OK,Thread Group 2-1,text,true,,7642,1486,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304957572,49,提交,200,OK,Thread Group 2-1,text,true,,7642,1148,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,18,0,0
+1592304957621,32,登入界面(获取token),200,OK,Thread Group 2-1,text,true,,7156,463,1,2,http://192.168.56.1/tinyshop/index.php?con=simple&act=login,32,0,0
+1592304955974,2902,SSH Command:(jmeter@localhost:22),200,OK,专用线程组（需修改Duration） 1-1,text,true,,34,0,1,1,null,0,0,0

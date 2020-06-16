@@ -1,0 +1,69 @@
+2020-06-16 18:55:25,655 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-06-16 18:55:25,676 INFO o.a.j.JMeter: Loading user properties from: D:\工作室\apache-jmeter-5.2.1\bin\user.properties
+2020-06-16 18:55:25,677 INFO o.a.j.JMeter: Loading system properties from: D:\工作室\apache-jmeter-5.2.1\bin\system.properties
+2020-06-16 18:55:25,678 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-06-16 18:55:25,678 INFO o.a.j.JMeter: Version 5.2.1
+2020-06-16 18:55:25,678 INFO o.a.j.JMeter: java.version=11.0.6
+2020-06-16 18:55:25,678 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-06-16 18:55:25,679 INFO o.a.j.JMeter: os.name=Windows 10
+2020-06-16 18:55:25,679 INFO o.a.j.JMeter: os.arch=amd64
+2020-06-16 18:55:25,679 INFO o.a.j.JMeter: os.version=10.0
+2020-06-16 18:55:25,679 INFO o.a.j.JMeter: file.encoding=GBK
+2020-06-16 18:55:25,679 INFO o.a.j.JMeter: java.awt.headless=true
+2020-06-16 18:55:25,679 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-06-16 18:55:25,679 INFO o.a.j.JMeter: Available Processors =4
+2020-06-16 18:55:25,686 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-06-16 18:55:25,687 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-06-16 18:55:25,687 INFO o.a.j.JMeter: JMeterHome=D:\工作室\apache-jmeter-5.2.1
+2020-06-16 18:55:25,687 INFO o.a.j.JMeter: user.dir  =C:\Users\16279\Desktop\答辩文档\性能测试脚本\基准测试-抢购
+2020-06-16 18:55:25,687 INFO o.a.j.JMeter: PWD       =C:\Users\16279\Desktop\答辩文档\性能测试脚本\基准测试-抢购
+2020-06-16 18:55:25,688 INFO o.a.j.JMeter: IP: 192.168.56.1 Name: DESKTOP-6PURELU FullName: DESKTOP-6PURELU
+2020-06-16 18:55:25,693 INFO o.a.j.s.FileServer: Default base='C:\Users\16279\Desktop\答辩文档\性能测试脚本\基准测试-抢购'
+2020-06-16 18:55:25,694 INFO o.a.j.s.FileServer: Set new base='C:\Users\16279\Desktop\答辩文档\性能测试脚本\基准测试-抢购'
+2020-06-16 18:55:25,830 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-06-16 18:55:25,840 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-06-16 18:55:25,844 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-06-16 18:55:25,848 INFO o.a.j.s.SaveService: Loading file: fshopping.jmx
+2020-06-16 18:55:25,885 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2020-06-16 18:55:25,920 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-06-16 18:55:25,920 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-06-16 18:55:25,920 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-06-16 18:55:25,920 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-06-16 18:55:25,920 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-06-16 18:55:25,920 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-06-16 18:55:25,970 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-06-16 18:55:25,978 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-06-16 18:55:25,981 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-06-16 18:55:25,981 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-06-16 18:55:25,988 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-06-16 18:55:25,988 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-06-16 18:55:27,565 INFO o.a.j.JMeter: Running test (1592304927565)
+2020-06-16 18:55:27,611 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 专用线程组（需修改Duration）
+2020-06-16 18:55:27,611 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 专用线程组（需修改Duration）.
+2020-06-16 18:55:27,611 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-06-16 18:55:27,612 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-06-16 18:55:27,622 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-06-16 18:55:27,622 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group
+2020-06-16 18:55:27,622 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2020-06-16 18:55:27,622 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-06-16 18:55:27,622 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2020-06-16 18:55:27,624 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2020-06-16 18:55:27,624 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-06-16 18:55:27,642 INFO o.a.j.t.JMeterThread: Thread started: 专用线程组（需修改Duration） 1-1
+2020-06-16 18:55:27,644 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-06-16 18:55:27,645 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-06-16 18:55:27,645 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-06-16 18:55:27,645 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-06-16 18:55:27,646 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2-1
+2020-06-16 18:55:27,673 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-6PURELU
+2020-06-16 18:55:27,680 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-06-16 18:55:27,766 INFO o.a.j.s.FileServer: Stored: C:/Users/16279/Desktop/答辩文档/性能测试脚本/基准测试-抢购/data_srv.jtl Alias: logfile
+2020-06-16 18:55:30,118 INFO o.a.j.r.Summariser: summary +     37 in 00:00:03 =   14.5/s Avg:    36 Min:    22 Max:   123 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2020-06-16 18:55:57,653 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 2-1
+2020-06-16 18:55:57,653 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2-1
+2020-06-16 18:55:58,889 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: 专用线程组（需修改Duration） 1-1
+2020-06-16 18:55:58,889 INFO o.a.j.t.JMeterThread: Thread finished: 专用线程组（需修改Duration） 1-1
+2020-06-16 18:55:58,889 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-06-16 18:55:58,890 INFO o.a.j.s.FileServer: Close: logfile
+2020-06-16 18:55:58,891 INFO o.a.j.r.Summariser: summary +    424 in 00:00:29 =   14.7/s Avg:    95 Min:    20 Max:  2972 Err:     0 (0.00%) Active: 0 Started: 2 Finished: 2
+2020-06-16 18:55:58,892 INFO o.a.j.r.Summariser: summary =    461 in 00:00:31 =   14.7/s Avg:    90 Min:    20 Max:  2972 Err:     0 (0.00%)
